@@ -3,38 +3,38 @@ Web:
 
   Skanowanie subdir:
     - name: dirb
-      description: Web Content Scanner
+      desc: Web Content Scanner
 
   SQL injection:
     - name: sqlmap
-      description: |
+      desc: |
         skaner sqlinjection
         example: sqlmap -u http://10.81.161.153:445/management/classes/Login.php?f=login --data='username=user&password=pass'
 
   DNS:
     - name: https://dnsdumpster.com/
       url: https://dnsdumpster.com/
-      description: Narzędzie OSINT do analizy DNS i infrastruktury domen. Pozwala odkrywać subdomeny, serwery i powiązania sieciowe.
+      desc: Narzędzie OSINT do analizy DNS i infrastruktury domen. Pozwala odkrywać subdomeny, serwery i powiązania sieciowe.
 
   Tools:
     - name: CyberChef
       url: https://cyberchef.org/
     - name: OWASP cheatsheet
       url: https://cheatsheetseries.owasp.org/
-      description: Oficjalne cheat sheet’y OWASP. Zawierają dobre praktyki dotyczące bezpiecznego tworzenia aplikacji.
+      desc: Oficjalne cheat sheet’y OWASP. Zawierają dobre praktyki dotyczące bezpiecznego tworzenia aplikacji.
     - name: Nmap Cheat Sheet
       url: https://www.stationx.net/nmap-cheat-sheet/
-      description: Ściąga z najważniejszymi komendami Nmapa. Pomocna przy szybkim przypomnieniu opcji skanowania.
+      desc: Ściąga z najważniejszymi komendami Nmapa. Pomocna przy szybkim przypomnieniu opcji skanowania.
     - name: JWT decode
       url: https://www.jwt.io/
-      description: Narzędzie do dekodowania i analizy JSON Web Tokenów. Umożliwia podgląd nagłówka, payloadu i algorytmów.
+      desc: Narzędzie do dekodowania i analizy JSON Web Tokenów. Umożliwia podgląd nagłówka, payloadu i algorytmów.
 
 Reverse shell:
   - name: revshells.com
     url: https://www.revshells.com/
-    description: zbiór i generaor rev-shelli
+    desc: zbiór i generaor rev-shelli
   - name: Spawn PTY/TTY
-    description: python3 -c 'import pty;pty.spawn("/bin/bash")';
+    desc: python3 -c 'import pty;pty.spawn("/bin/bash")';
 
 
 Hasła:
@@ -48,38 +48,38 @@ Nauka:
   Edukacja:
     - name: Exploit Education
       url: https://exploit.education/
-      description: Platforma edukacyjna z zadaniami uczącymi exploitacji podatności. Skupia się na praktycznym zrozumieniu błędów w oprogramowaniu.
+      desc: Platforma edukacyjna z zadaniami uczącymi exploitacji podatności. Skupia się na praktycznym zrozumieniu błędów w oprogramowaniu.
     - name: HardwareAllTheThings
       url: https://swisskyrepo.github.io/HardwareAllTheThings/
-      description: Repozytorium wiedzy o atakach na sprzęt i interfejsy hardware’owe. Część serii ￼￼AllTheThings￼￼, skupiona na bezpieczeństwie fizycznym i embedded.
+      desc: Repozytorium wiedzy o atakach na sprzęt i interfejsy hardware’owe. Część serii ￼￼AllTheThings￼￼, skupiona na bezpieczeństwie fizycznym i embedded.
     - name: https://kc7cyber.com/
       url: https://kc7cyber.com/
-      description: Platforma szkoleniowa typu hands-on do nauki cyberbezpieczeństwa. Oferuje symulacje, laboratoria i scenariusze ataków.
+      desc: Platforma szkoleniowa typu hands-on do nauki cyberbezpieczeństwa. Oferuje symulacje, laboratoria i scenariusze ataków.
     - name: NotTheHiddenWiki
       url: https://notthehiddenwiki.com/
       descrition: Indeks stron z dark web i deep web, bez treści nielegalnych. Służy jako katalog informacyjny i badawczy.
     - name: Hack tricks
       url: https://book.hacktricks.wiki
-      description: Obszerna encyklopedia technik ataków i bypassów. Często używana jako referencja podczas CTF-ów i pentestów.
+      desc: Obszerna encyklopedia technik ataków i bypassów. Często używana jako referencja podczas CTF-ów i pentestów.
 
   Zadania, Gry i CTF:
     - name: 0xf.at
       url: https://0xf.at/
-      description: Strona z materiałami i wyzwaniami z zakresu bezpieczeństwa IT. Może zawierać CTF-y, write-upy lub narzędzia.
+      desc: Strona z materiałami i wyzwaniami z zakresu bezpieczeństwa IT. Może zawierać CTF-y, write-upy lub narzędzia.
     - name: XSS game
       url: https://xss-game.appspot.com/
-      description: Interaktywna gra ucząca podatności XSS. Użytkownik rozwiązuje kolejne poziomy, poznając różne techniki ataków.
+      desc: Interaktywna gra ucząca podatności XSS. Użytkownik rozwiązuje kolejne poziomy, poznając różne techniki ataków.
     - name: https://pentest-ground.com/
       url: https://pentest-ground.com/
-      description: Platforma do ćwiczeń z testów penetracyjnych. Udostępnia podatne maszyny i scenariusze do praktyki.
+      desc: Platforma do ćwiczeń z testów penetracyjnych. Udostępnia podatne maszyny i scenariusze do praktyki.
     - name: https://gandalf.lakera.ai/agent-breaker
       url: https://gandalf.lakera.ai/agent-breaker
-      description: Interaktywne wyzwanie dotyczące łamania zabezpieczeń agentów AI. Skupia się na prompt injection i obejściach ograniczeń.
+      desc: Interaktywne wyzwanie dotyczące łamania zabezpieczeń agentów AI. Skupia się na prompt injection i obejściach ograniczeń.
     - name: https://crackmes.one/
       url: https://crackmes.one/
-      description: Platforma z crackme’ami do nauki reverse engineeringu. Użytkownicy rozwiązują zadania i publikują write-upy.
+      desc: Platforma z crackme’ami do nauki reverse engineeringu. Użytkownicy rozwiązują zadania i publikują write-upy.
     - name: TryHackMe
       url: https://tryhackme.com/
-      description: Real-world offensive & defensive cyber security training
+      desc: Real-world offensive & defensive cyber security training
     - name: HackTheBox - labs
       url: https://app.hackthebox.com/home

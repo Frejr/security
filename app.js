@@ -64,7 +64,7 @@ function renderNode(node) {
 
         const name = String(item?.name ?? '').trim();
         const url = String(item?.url ?? '').trim();
-        const desc = String(item?.description ?? '');
+        const desc = String(item?.desc ?? '');
 
         let titleEl = null;
         let descEl = null;
